@@ -1,0 +1,188 @@
+/* Header */
+header {
+    height: 60px;
+    text-align: right;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+}
+
+#headinfo {
+    display: inline-flex;
+    vertical-align: middle;
+    text-align: right;
+    flex-direction: column;
+    font-size: 12px;
+    height: 100%;
+    margin: 0;
+}
+
+#headinfo * {
+    margin: 0;
+    text-align: right;
+}
+
+#signin {
+    display: inline-block;
+}
+
+#signin button {
+    height: 32px;
+    width: 100px;
+    padding: 0 20px 0 20px;
+    background-color: rgb(0, 119, 197);
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 13.5px;
+}
+
+.whitelock {
+    background-image: url(images/whitelock.png);
+    background-size: 1em 1em;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+
+/* Logo */
+#main-logo {
+    height: 35px;
+    width: 118px;
+    display: block;
+    margin: 0 auto;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.4.3/images/ecosystem_logos_new.png);
+}
+
+/* Body */
+#signup-wrapper {
+    width: 320px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(199,199,199);
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Form */
+form {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form label{
+    display: block;
+    float: left;
+}
+
+form input {
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+form button {
+    width: 100%;
+    background-color: rgb(0, 119, 197);
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 32px;
+    color: white;
+    padding: 6px 12px 6px 12px;
+}
+
+#captcha {
+    height: 21px;
+    width:  cal(100% + 60px);
+    padding: 16px;
+    border: 1px solid lightgray;
+    background-color: rgb(236, 238, 241);
+    margin: 20px -30px -30px -30px;
+}
+
+#captcha-text {
+    font-size: 10px;
+}
+
+#terms-text {
+    font-style: italic;
+    line-height: 18px;
+}
+
+/* Top nav */
+
+nav ul {
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li::before {
+    content: '';
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    padding-right: 4px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+#turbotax::before {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.4.3/images/tt-favicon@2x.svg)
+}
+
+#quickbooks::before {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.4.3/images/quickbooks-favicon@2x.svg)
+}
+
+#mint::before {
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.4.3/images/mint-favicon.svg)
+}
+
+/* Footer */
+footer  {
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    color: rgb(80, 80, 80);
+}
+
+/* All text */
+* {
+    font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(80, 80, 80);
+}
+
+p {
+    font-size: 14px;
+}
+
+a,a p {
+    color: rgb(0,119,197);
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(236, 238, 241);
+}
+
+.small {
+    font-size: 12px;
+    margin: 0;
+}
